@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,24 +8,25 @@
     <div class="calculator">
         <input type="text" class="display" id="display" readonly>
         <div class="btns">
-            <button class="btn">c</button>
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">+</button>
-            <button class="btn">3</button>
-            <button class="btn">4</button>
-            <button class="btn">-</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn">*</button>
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">/</button>
-            <button class="btn">=</button>
-            <button class="btn">9</button>
-            <button class="btn">0</button>
-            <button class="btn">.</button>
+            <button class="btn" onclick="clearBtn()">c</button>
+            <button class="btn" onclick="one()">1</button>
+            <button class="btn" onclick="two()">2</button>
+            <button class="btn" onclick="addition()">+</button>
+            <button class="btn" onclick="three()">3</button>
+            <button class="btn" onclick="four()">4</button>
+            <button class="btn" onclick="subtraction()">-</button>
+            <button class="btn" onclick="five()">5</button>
+            <button class="btn" onclick="six()">6</button>
+            <button class="btn" onclick="multiplication()">*</button>
+            <button class="btn" onclick="seven()">7</button>
+            <button class="btn" onclick="eight()">8</button>
+            <button class="btn" onclick="division()">/</button>
+            <button class="btn" onclick="equal()">=</button>
+            <button class="btn" onclick="nine()">9</button>
+            <button class="btn" onclick="zero()">0</button>
+            <button class="btn" onclick="decimal()">.</button>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
