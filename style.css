@@ -1,0 +1,37 @@
+
+
+.calculator{
+    border: 1px solid rgb(170, 169, 169);
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.display{
+    height: 40px;
+    width: 85%;
+    margin: 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    margin: 4px;
+    border-radius: 9px;
+    border: 2px solid rgb(143, 141, 141);
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(45, 10, 63);
+}
